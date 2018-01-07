@@ -1,0 +1,92 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 17, 2017, 9:39:07 PM
+    Author     : Wajid Ali
+*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ body{
+        background-image: url("Good-Morning-HD-Flowers.jpg");
+        width: 1360px;
+        height: 760px;
+     }
+#menu ul{
+    list-style: none;
+}
+#menu ul ul{
+    position: absolute;
+    display: none;
+}
+#menu ul li{
+    background-color: rgba(0,0,0,0.5);
+    border: 1px solid black;
+    width: 120px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    float: left;
+    margin: 4px;
+    position: relative;
+    border-radius: 10px;
+}
+#menu ul li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+#menu ul li a:hover{
+    background-color: red;
+    border-radius: 10px;
+}
+#menu ul li:hover > ul{
+    display: block;
+    
+}
+#menu ul ul ul{
+    margin-left: 120px;
+    top: 0px;
+}
+#logindiv{
+    
+    width: 300px;
+    height: 230px;
+    background-color: rgba(0,0,0,0.5);
+    margin-left: 500px;
+    margin-top: 200px;
+    border-radius: 16px;
+}
+h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+#logindiv input{
+    height: 25px;
+    width: 150px;
+    border-radius: 5px;
+}
+#logindiv button{
+    height: 25px;
+    width: 70px;
+    border-radius: 6px;
+    margin-left: 50px;
+    border-color: rgba(0,0,0,0.5);
+    color: white;
+    background-color: black;
+    
+}
+#input{
+    height: 25px;
+    width: 70px;
+    border-radius: 6px;
+    margin-left: 50px;
+    border-color: rgba(0,0,0,0.5);
+    color: white;
+    background-color: black;
+    
+}
